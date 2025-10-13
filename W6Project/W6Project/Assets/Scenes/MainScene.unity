@@ -8409,6 +8409,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.446
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: cd34e7b1e87da4f9c92d2423141c57bf, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ec9cf3a11bac4433c93fe94ead438255, type: 2}
     - target: {fileID: -3542852092398272455, guid: cd34e7b1e87da4f9c92d2423141c57bf, type: 3}
       propertyPath: m_LocalScale.y
       value: 0.82341
@@ -8433,6 +8437,14 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: e0b8aba52433a094da64eabd4830ed9f, type: 2}
+    - target: {fileID: -1461304994638716399, guid: cd34e7b1e87da4f9c92d2423141c57bf, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a38331d19d0ab4c4da06910b30ff8679, type: 2}
+    - target: {fileID: -678588488315902003, guid: cd34e7b1e87da4f9c92d2423141c57bf, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: fb3a7a920349842738d0b0a1d3ebc3a2, type: 2}
     - target: {fileID: 919132149155446097, guid: cd34e7b1e87da4f9c92d2423141c57bf, type: 3}
       propertyPath: m_Name
       value: Hand
