@@ -36,6 +36,8 @@ public class PlayerMovement : MonoBehaviour
     //CamToggle boolean
     public bool isMouseCam = true;
 
+    public AudioSource eep;
+
     Vector3 moveDirection;
 
     Rigidbody rb;
@@ -72,6 +74,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.C))
         {
             isMouseCam = !isMouseCam;
+            eep.Play();
         }
 
         if (isMouseCam)
