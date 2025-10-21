@@ -53840,6 +53840,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7346614162635335996, guid: ff6829a780d8dae43bc493586612b479, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c04717b9a6d8a4a54a6a7b0e64cc49ad, type: 2}
     - target: {fileID: -3910990755373119420, guid: ff6829a780d8dae43bc493586612b479, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.984
@@ -53880,6 +53884,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2283887013491269704, guid: ff6829a780d8dae43bc493586612b479, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c04717b9a6d8a4a54a6a7b0e64cc49ad, type: 2}
+    - target: {fileID: 1771303740792559880, guid: ff6829a780d8dae43bc493586612b479, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c04717b9a6d8a4a54a6a7b0e64cc49ad, type: 2}
+    - target: {fileID: 2256891680492327673, guid: ff6829a780d8dae43bc493586612b479, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5223160561602546039, guid: ff6829a780d8dae43bc493586612b479, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 220fb59ac956649afba7a6aa409cf55b, type: 2}
+    - target: {fileID: 6283981103443308668, guid: ff6829a780d8dae43bc493586612b479, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c04717b9a6d8a4a54a6a7b0e64cc49ad, type: 2}
+    - target: {fileID: 7511896365957689585, guid: ff6829a780d8dae43bc493586612b479, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c04717b9a6d8a4a54a6a7b0e64cc49ad, type: 2}
     - target: {fileID: 8771091787928289351, guid: ff6829a780d8dae43bc493586612b479, type: 3}
       propertyPath: m_Name
       value: Cockpit (1)
