@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 public class SceneTrigger : MonoBehaviour
 {
 
+    public static SceneTrigger instance;
+
+    public AudioSource doorSource;
     public Animator transition;
     public float transitionTime = 1;
 
@@ -33,6 +36,8 @@ public class SceneTrigger : MonoBehaviour
     IEnumerator LoadLevel(int levelIndex)
     {
         transition.SetTrigger("Start");
+
+        doorSource.Play();
 
         yield return new WaitForSeconds(transitionTime);
 
